@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recetas</title> <!--Titol de la pagina en la finestra-->
+        <meta charset='utf-8'>
+        <meta name="authors" content="SEH Soulaimane El Harrak & YD Younes Derraz">
+        <meta name="description" content="M04 UF1&UF2 HTML & CSS">
+        <meta name="dateCreated" content="02/02/2023">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Serveix perque s'adapti a la mida de la pantalla-->
+        <meta http-equiv="refresh" content="X"> <!--Serveix perque es vagi actualitzant els canvis-->
+        <link rel="shortcut icon" href="../imagenes/Logo-Delicias.png" type="image/x-icon"> <!--Serveix per posar una icona al costat del titol de la finestra-->
+        <link rel="stylesheet" href="../css/recetas.css"> <!--Serveix per enllaçar el document de l'estil de la pàgina...-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header"> <!--Logo, titol principal...-->
+            <div>
+                <img src="../imagenes/Logo-Delicias.png" alt="Logo Delicias">
+            </div>
+            <nav class="nav" style="position: sticky;"> <!--La barra de navegació per poder mouren's per la web-->
+                <div>
+                    <a href="../index.html">INICIO</a> <!--Esta a quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="../sobre_mi/sobre_mi.html">SOBRE MÍ</a>
+                    <a href="../receta/recetas.html">RECETAS</a>
+                    <a href="../contacto/contacto.html">CONTACTO</a>
+                    <a href="../otras_cosas/otras_cosas.html">OTRAS COSAS</a>
+                    <a href="../login/login.html" style="color: #7ABA96">LOGIN</a>
+                </div>
+            </nav>
+        </header>
+        <img id = "fotoPrincipal" src="../imagenes/lazos_ensalada_1.jpg" alt="image-description" width="585" height="391">        
+        <h1 id="Titulo">
+            LASOS DE COLOR PER ENSALADA
+        </h1>
+        <h1 id="Subtitulo">
+            2 de febrer de 2023 per @younes&souli
+        </h1>
+        <h1 id="Cuerpo">
+            Había una vez una familia italiana que amaba cocinar y comer platos tradicionales de su país. Uno de sus favoritos era la lasaña, que preparaban en dos versiones diferentes: la lasaña a la boloñesa y la lasaña vegetariana.
+            Para la lasaña vegetariana, utilizaban una salsa de carne de res cocida a fuego lento con tomates, zanahorias, cebollas y apio. La salsa se mezclaba con capas de pasta de lasaña, queso ricotta y queso parmesano, y se horneaba hasta que estaba dorada y burbujeante. El resultado era un plato lleno de sabor y textura, que se convertía en el centro de atención de cualquier reunión familiar.
+            Para la lasaña vegetariana, utilizaban una mezcla de verduras frescas y sabrosas, como zanahorias, calabacines, espinacas y champiñones, que se salteaban con ajo y cebolla. Las verduras se mezclaban con capas de pasta de lasaña, queso ricotta y queso parmesano, y se horneaba todo junto hasta que estaba dorado y crujiente. El resultado era un plato saludable y delicioso que todos disfrutaban.
+            Desde entonces, la lasaña se ha convertido en un plato popular en todo el mundo, y ha evolucionado para incluir una variedad de ingredientes y combinaciones de sabores. Ya sea la versión tradicional a la boloñesa, o la versión vegetariana, la lasaña sigue siendo un plato versátil y delicioso que todos pueden disfrutar.
+        </h1>
+        <div>
+            <title>CONCURS DE CUINA</title>
+                <style>
+                .caja {
+                    margin-right: 25px;
+                    float: right;
+                    width: 600px;
+                    border: 1px solid black;
+                    padding: 10px;
+                    box-sizing: border-box;
+                }
+                .titulo {
+                    font-family: 'Gloock', serif;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                .barra {
+                    height: 5px;
+                    background-color: white;
+                    margin-bottom: 10px;
+                }
+                .imagen {
+                    max-width: 100%;
+                    height: auto;
+                    border: 2px;
+                    box-shadow: 0px 0px 10px grey;
+                }
+                .boton {
+                    display: block;
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: #7ABA96;
+                    color: black;
+                    margin: auto;
+                    text-decoration: dashed;
+                    border-radius: 100px;
+                    font-size: small;
+                }
+                </style>
+        </div>
+        <div>
+            <div class="caja">
+            <div id="tituloAnuncio" class="titulo">CONCURS DE CUINA</div>
+            <div class="barra"></div>
+            <img class="imagen" src="../imagenes/concursoCocina.jpg" alt="69">
+            <div class="barra"></div>
+            <div id="Cuerpo">
+                T'agrada cuinar i passar-ho bé? Aquí tenim el concurs de cuina més esperat
+                de la temporada. Tot tipus de plats i formes
+            </div>
+            <h1 id="Cuerpo" style="text-align: center;
+            animation: TituloAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;">¡ENTRA FENT CLICK!</h1>
+            <a class="boton" href="">¡CLICK AQUÍ!</a>
+        </div>
+        </div>
+        <img id="foto2" src="../imagenes/lazos_ensalada_2.jpg" width="581" height="505">
+        <h1 id="Ingredients">
+            Ingredients: 
+        </h1>
+        <h1 id="Cuerpo">
+            - 500 gramos de ensalada <br>
+            - 1 cebolla picada <br>
+            - 2 ramas de apio picadas <br>
+            - 1/2 taza de leche <br>
+            - 12 hojas de pasta de lasaña cocida al dente <br>
+        </h1>
+        
+        <h1 id="Ingredients">
+        Preparació
+        </h1>
+        <h1 id="Cuerpo">
+            1. En una sartén grande, calienta el aceite de oliva y saltea el vegano hasta que esté dorada. <br>
+            2. Mientras tanto, en una sartén grande, saltea el pollo en aceite de oliva hasta que esté dorado. <br>
+            3. Agrega el pimiento rojo, la cebolla y el ajo y saltea todo junto durante unos minutos, hasta que las verduras estén tiernas. <br>
+            4. Agrega la cebolla, la zanahoria, el apio y el ajo, y saltea todo junto durante unos minutos, hasta que las verduras estén tiernas. <br>
+            5. Agrega los lacitos cocidos a la sartén y mezcla todo junto para que se integren los sabores. Sirve caliente y disfruta. <br>
+            6. Agrega los tomates pelados, la pasta de tomate, el vino tinto y el caldo de pollo a la sartén. <br>
+        </h1>
+        <br>
+        <footer class="footer">
+                <div>
+                    <a href="https://www.facebook.com/">FACEBOOK</a> <!--Esto quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="https://www.instagram.com/">TWITTER</a>
+                    <a href="https://twitter.com/">INSTAGRAM</a>
+                    <a href="https://www.pinterest.es/">PINTEREST</a>
+                    <a href="https://www.google.com/intl/es/gmail/about/">EMAIL</a>
+                    <a href="https://hypel.ink/">RSS</a>
+                </div>
+        </footer> <!--La part de sota de la pàgina-->
+    </body>
+</html>

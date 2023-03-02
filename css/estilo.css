@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+    margin: 0; /*Posar per defecte que les siluetes siguin zero que no es vegin*/
+} 
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}   
+nav {
+    position: sticky;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 30px 0;  
+}
+nav a {
+    margin: 8px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    position: sticky;
+    top: 0px;
+}
+nav a:hover {
+    color: #7ABA96;
+}
+nav a:active {
+    color: greenyellow;
+}
+main {
+    height: 25cm;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 15px;
+    margin-right: 15%;
+    position: relative;
+}
+#section1 {
+    height: 320px;
+    width: 300px;
+    margin: auto;
+    margin-left: 0px;
+}
+#section2 {
+    height: 19px;
+    margin-top: 10px;
+    border-bottom: 20px;
+    width: 300px;
+    background-color: rgb(122,186,150);
+}
+#section3 {
+    position:relative;
+    top: 0px;
+    height:auto;
+    right: 0cm;
+    width: 740px;
+    margin-bottom: -300px;
+}
+#h31 {
+    padding-top: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+#h32 {
+    font-size: 13px;
+    color: gray;
+}
+#isagil {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 60%;
+    height: auto;
+}
+#div1 {
+    margin: 0px;
+    margin-bottom: 50px;
+    height: 390px;
+    width: 300px;
+    background-color: white;
+}
+h5 {
+    margin-bottom: 0px;
+    margin-top: -5px;
+    font-size: 16px;
+    position: relative;
+}
+#libro {
+    height: 290px;
+    width: auto;
+}
+#p1 {
+    font-size: 14px;
+    position: relative;
+    margin: 7px;
+}
+.p {
+    position: relative;
+    margin: 0px;
+}
+footer {
+    background: black;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+}
+#article1 {
+    position: absolute;
+    height: 740px;
+    width: 387.5px;
+    top: -20cm;
+    right: -2cm;
+}
+#article2 {
+    position: absolute;
+    height: 740px;
+    width: 387.5px;
+    top: -20cm;
+    right: -15cm;
+}
+#article3 {
+    position: absolute;
+    height: 440px;
+    width: 387.5px;
+    top: -7cm;
+    right: -2cm;
+}
+#article4 {
+    position: absolute;
+    height: 440px;
+    width: 387.5px;
+    top: -7cm;
+    right: -15cm;
+}
+article a:hover {
+    color: #8A8070;
+}
+#pastaImagen {
+    position: relative;
+    height: 35%;
+}
+footer a{
+    margin: 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #7ABA96;
+}
+#fotoPrincipal {
+    border: 5px solid;
+    display: block;
+    margin: auto;
+}
+#Titulo {
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    margin: 35px;
+    text-align: center;
+    text-shadow: 0px 0px 5px green;
+    animation: TituloAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes TituloAnimation {
+    20%{color: orange;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: purple;}
+}
+#Subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+    margin: 50px;
+    color: #8A8070;
+    font-weight: bold;
+}
+#Cuerpo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    margin: 35px;
+    line-height: 2;
+    max-width: 850px;
+}
+#foto2 {
+    border: 5px solid;
+    margin-left: 60px;
+    margin-right: auto;
+}
+#Ingredients {
+    font-size: x-large ;
+    font-family: 'Montserrat', sans-serif;
+    margin: 35px;
+    font-weight: bolder;
+}
+#video {
+    display: block;
+    margin: auto;
+}
