@@ -45,3 +45,26 @@ footer a{
 footer a:hover {
     color: #7ABA96;
 }
+#descrip {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px black;
+    height: auto;
+    width: 350px;
+    font-size: medium;
+    background: gray;
+    font-style: italic;
+    animation-name: descripp;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes descripp {
+    20%{color: #7ABA96;}
+    40%{color: rgb(9, 231, 219);}
+    60%{color: rgb(104, 238, 162);}
+    80%{color: rgb(86, 234, 18);}
+    100%{color: green;}
+}
