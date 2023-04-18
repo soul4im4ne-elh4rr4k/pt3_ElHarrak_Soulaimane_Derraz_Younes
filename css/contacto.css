@@ -3,18 +3,18 @@
     margin: 0; /*Posar per defecte que les siluetes siguin zero que no es vegin*/
 } 
 body {
-    background: rgb(255, 255, 255);
+    background: linear-gradient(white, #7ABA96);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Quicksand', sans-serif;
 }
 header {
-    background: rgb(255, 255, 255);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }   
 nav {
     position: sticky;
-    background: rgb(255, 255, 255);
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     text-align: center;
@@ -43,8 +43,7 @@ main {
     position: relative;
 }
 footer {
-    background: black;
-    position: relative;
+    position: fixed;
     bottom: 0px;
     text-align: center;
     width: 100%;

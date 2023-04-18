@@ -6,22 +6,22 @@
 head {
     
 }
-body{
-    background: rgb(255, 255, 255);
+body {
+    background: linear-gradient(white, #7ABA96);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Quicksand', sans-serif;
 }
 
 header {
-    background: rgb(255, 255, 255);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
     position: sticky;
-    top: -125px;
-}   
+    /*top: -125px;*/
+}
 nav {
     position: sticky;
-    background: rgb(255, 255, 255);
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     text-align: center;
@@ -43,7 +43,6 @@ nav a:active {
     color: #7ABA96;
 }
 footer {
-    background: black;
     position: relative;
     bottom: 0px;
     text-align: center;
@@ -58,7 +57,7 @@ article a:hover {
 footer a{
     margin: 15px;
     font-size: 15px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
