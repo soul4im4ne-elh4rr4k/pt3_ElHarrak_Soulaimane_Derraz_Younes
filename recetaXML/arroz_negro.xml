@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Usar traductor de html a xml: https://www.vertopal.com/en/convert/html-to-xml-->
+<!-- Recordar seguir el esquema XSD-->
+<!DOCTYPE article>
+<article
+  xml:lang="es"
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title>Recetas</title>
+  </info>
+  <para>
+    Logo Delicias
+  </para>
+  <para>
+    <link xlink:href="../index.html">INICI</link>
+    <link xlink:href="../sobre_mi/sobre_mi.html">SOBRE MÍ</link>
+    <link xlink:href="../listado/listado.html">RECETES</link>
+    <link xlink:href="../contacto/contacto.html">CONTACTE</link>
+    <link xlink:href="../otras_cosas/otras_cosas.html">ALTRES
+    COSES</link> <link xlink:href="../login/login.html">LOGIN</link>
+  </para>
+  <para>
+    <anchor xml:id="fotoPrincipal" />image-description
+  </para>
+  <section xml:id="Titulo">
+    <title>ARRÒS NEGRE</title>
+    <para>
+    </para>
+  </section>
+  <section xml:id="Subtitulo">
+    <title>2 de febrer de 2023 per @younes&amp;souli</title>
+    <para>
+    </para>
+  </section>
+  <section xml:id="Cuerpo">
+    <title>Hace muchos años, en el sur de China, vivía una anciana que
+    era famosa en su pueblo por su habilidad para preparar el arroz
+    negro más delicioso. La receta de la anciana se había transmitido de
+    generación en generación y se decía que era un tesoro familiar. Un
+    día, el gobernador de la provincia visitó el pueblo y decidió probar
+    el famoso arroz negro de la anciana. El gobernador quedó tan
+    impresionado con el sabor y la textura del arroz que decidió invitar
+    a la anciana a su palacio para que le preparara el plato. La
+    anciana, honrada por la invitación, llegó al palacio y preparó el
+    arroz negro en la cocina real. Sin embargo, mientras cocinaba, se
+    dio cuenta de que había olvidado un ingrediente clave que daba al
+    arroz su sabor único y su color oscuro. La anciana se sintió
+    terriblemente avergonzada por su error y temía que el gobernador se
+    decepcionara con su plato. Pero en lugar de eso, el gobernador tomó
+    una cucharada del arroz y dijo: &quot;Este arroz es delicioso, pero
+    algo falta en él&quot;. Luego, el gobernador sacó una pequeña bolsa
+    de tinta de calamar y la vertió en el arroz. La anciana se
+    sorprendió por la idea del gobernador, pero lo siguió y mezcló la
+    tinta de calamar con el arroz. Cuando el arroz negro estuvo listo,
+    lo sirvieron al gobernador, quien lo encontró aún más delicioso que
+    antes. La anciana estaba asombrada por la creatividad del gobernador
+    y agradecida por su ayuda para mejorar su plato. Desde entonces, la
+    anciana comenzó a añadir tinta de calamar a su receta de arroz
+    negro, lo que mejoró aún más el sabor del plato. Y así, la receta de
+    la anciana se hizo aún más famosa en todo el país.</title>
+    <para>
+      CONCURS DE CUINA
+    </para>
+    <anchor xml:id="tituloAnuncio" />
+    <para>
+      CONCURS DE CUINA
+    </para>
+    <para>
+      69
+    </para>
+    <anchor xml:id="Cuerpo" />
+    <para>
+      T'agrada cuinar i passar-ho bé? Aquí tenim el concurs de cuina més
+      esperat de la temporada. Tot tipus de plats i formes
+    </para>
+    <section xml:id="Cuerpo">
+      <title>¡ENTRA FENT CLICK!</title>
+      <link xlink:href="" role="boton">¡CLICK AQUÍ!</link>
+    </section>
+    <para>
+      <anchor xml:id="foto2" />
+    </para>
+  </section>
+  <section xml:id="Ingredients">
+    <title>Ingredients:</title>
+    <para>
+    </para>
+  </section>
+  <section xml:id="Cuerpo">
+    <title>- Arroz de grano largo o corto
+    - Caldo de pescado o de marisco
+    - Tinta de calamar o sepia
+    - Cebolla
+    - Pimiento rojo o verde
+    </title>
+    <para>
+    </para>
+  </section>
+  <section xml:id="Ingredients">
+    <title>Preparació</title>
+    <para>
+    </para>
+  </section>
+  <section xml:id="Cuerpo">
+    <title>1. Sofregiu la ceba i els pebrots tallats en quadradets fins
+    que estiguin tendres. Afegiu-hi l'all picat i deixeu-lo coure uns
+    segons més.
+    2. Afegiu el tomàquet tallat en quadradets petits i deixeu-ho coure
+    uns minuts fins que es desfaci i s'aboni amb la ceba.
+    3. Afegiu el caldo de peix o de marisc i la tinta de calamar o
+    sepia. Porteu-ho a ebullició i deixeu coure durant uns minuts.
+    4. Afegiu l'arròs i deixeu-lo coure durant uns 15-20 minuts,
+    remenant de tant en tant. Si és necessari, afegiu més caldo mentre
+    es cou l'arròs.
+    5. Quan l'arròs estigui cuit, retireu-lo del foc i deixeu-lo reposar
+    durant uns minuts abans de servir-lo.
+    6. Podeu decorar el plat amb ceba tendra picada, julivert i uns
+    trossets de llima.
+    </title>
+<literallayout>
+</literallayout>
+    <para>
+      <link xlink:href="https://www.facebook.com/">FACEBOOK</link>
+      <link xlink:href="https://www.instagram.com/">TWITTER</link>
+      <link xlink:href="https://twitter.com/">INSTAGRAM</link>
+      <link xlink:href="https://www.pinterest.es/">PINTEREST</link>
+      <link xlink:href="https://www.google.com/intl/es/gmail/about/">EMAIL</link>
+      <link xlink:href="https://hypel.ink/">RSS</link>
+    </para>
+  </section>
+</article>

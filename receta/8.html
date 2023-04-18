@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recetas</title> <!--Titol de la pagina en la finestra-->
+        <meta charset='utf-8'>
+        <meta name="authors" content="SEH Soulaimane El Harrak & YD Younes Derraz">
+        <meta name="description" content="M04 UF1&UF2 HTML & CSS">
+        <meta name="dateCreated" content="02/02/2023">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Serveix perque s'adapti a la mida de la pantalla-->
+        <meta http-equiv="refresh" content="X"> <!--Serveix perque es vagi actualitzant els canvis-->
+        <link rel="shortcut icon" href="../imagenes/Logo-Delicias.png" type="image/x-icon"> <!--Serveix per posar una icona al costat del titol de la finestra-->
+        <link rel="stylesheet" href="../css/recetas.css"> <!--Serveix per enllaçar el document de l'estil de la pàgina...-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header"> <!--Logo, titol principal...-->
+            <div>
+                <img src="../imagenes/Logo-Delicias.png" alt="Logo Delicias">
+            </div>
+            <nav class="nav" style="position: sticky;"> <!--La barra de navegació per poder mouren's per la web-->
+                <div>
+                    <a href="../index.html">INICI</a> <!--Esta a quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="../sobre_mi/sobre_mi.html">SOBRE MÍ</a>
+                    <a href="../listado/listado.xml">RECETES</a>
+                    <a href="../contacto/contacto.html">CONTACTE</a>
+                    <a href="../otras_cosas/otras_cosas.html">ALTRES COSES</a>
+                    <a href="../login/login.html" style="color: #7ABA96">LOGIN</a>
+                </div>
+            </nav>
+        </header>
+        <img id = "fotoPrincipal" src="../imagenes/gnocchis_1.jpg" alt="image-description" width="585" height="391">        
+        <h1 id="Titulo">
+            GNOCCHIS AMB ALVOCAT I PESTO TOMÀQUET
+        </h1>
+        <h1 id="Subtitulo">
+            2 de febrer de 2023 per @younes&souli
+        </h1>
+        <h1 id="Cuerpo">
+            Había una vez un pequeño restaurante en la Toscana, Italia, llamado "La Locanda del Buongustaio". El chef del restaurante, Giuseppe, era conocido por su creatividad en la cocina y siempre estaba buscando formas de sorprender a sus clientes.
+            Un día, Giuseppe decidió experimentar con una receta de gnocchis de aguacate y tomate que había visto en una revista de cocina. Utilizó ingredientes frescos y de temporada y agregó su propio toque personal, mezclando el aguacate con harina de almendra para darle una textura suave y cremosa.
+            El resultado fue un plato delicioso y lleno de sabor, que se convirtió en uno de los favoritos de los clientes del restaurante. La combinación del aguacate y el tomate le daba un toque fresco y mediterráneo, y los gnocchis se derretían en la boca.
+            Desde entonces, los gnocchis de aguacate y tomate se han convertido en un plato icónico de la cocina toscana, y son una muestra de cómo la creatividad y la innovación pueden dar lugar a recetas deliciosas y sorprendentes.
+        </h1>
+        <div>
+            <title>CONCURS DE CUINA</title>
+                <style>
+                .caja {
+                    margin-right: 25px;
+                    float: right;
+                    width: 600px;
+                    border: 1px solid black;
+                    padding: 10px;
+                    box-sizing: border-box;
+                }
+                .titulo {
+                    font-family: 'Gloock', serif;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                .barra {
+                    height: 5px;
+                    background-color: white;
+                    margin-bottom: 10px;
+                }
+                .imagen {
+                    max-width: 100%;
+                    height: auto;
+                    border: 2px;
+                    box-shadow: 0px 0px 10px grey;
+                }
+                .boton {
+                    display: block;
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: #7ABA96;
+                    color: black;
+                    margin: auto;
+                    text-decoration: dashed;
+                    border-radius: 100px;
+                    font-size: small;
+                }
+                </style>
+        </div>
+        <div>
+            <div class="caja">
+            <div id="tituloAnuncio" class="titulo">CONCURS DE CUINA</div>
+            <div class="barra"></div>
+            <img class="imagen" src="../imagenes/concursoCocina.jpg" alt="69">
+            <div class="barra"></div>
+            <div id="Cuerpo">
+                T'agrada cuinar i passar-ho bé? Aquí tenim el concurs de cuina més esperat
+                de la temporada. Tot tipus de plats i formes
+            </div>
+            <h1 id="Cuerpo" style="text-align: center;
+            animation: TituloAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;">¡ENTRA FENT CLICK!</h1>
+            <a class="boton" href="">¡CLICK AQUÍ!</a>
+        </div>
+        </div>
+        <img id="foto2" src="../imagenes/gnocchis_2.png" width="581" height="505">
+        <h1 id="Ingredients">
+            Ingredients: 
+        </h1>
+        <h1 id="Cuerpo">
+            - 2 aguacates maduros <br>
+            - 2 tazas de harina de almendra <br>
+            - 2 tazas de harina de trigo <br>
+            - 1/2 taza de queso parmesano rallado <br>
+            - Sal y pimienta <br>
+        </h1>
+        
+        <h1 id="Ingredients">
+        Preparació
+        </h1>
+        <h1 id="Cuerpo">
+            1. Cocina los gnocchis de acuerdo con las instrucciones del paquete. <br>
+            2. Mientras tanto, pela los aguacates y colócalos en un procesador de alimentos o licuadora. Añade la harina de almendra y mezcla hasta obtener una mezcla suave y cremosa. <br>
+            3. En un tazón grande, mezcla la mezcla de aguacate y almendra con la harina de trigo hasta que se forme una masa suave. Amasa la masa durante unos minutos y forma pequeñas bolas con las manos. <br>
+            4. En una sartén grande, saltea los tomates cherry y el ajo en aceite de oliva hasta que estén tiernos. Agrega los gnocchis a la sartén y saltea todo junto durante unos minutos, hasta que los gnocchis estén dorados. <br>
+            5. Sirve los gnocchis en platos y espolvorea queso parmesano rallado por encima. Añade sal y pimienta al gusto y sirve caliente.<br>
+            6. Los gnocchis de aguacate y tomate son un plato delicioso y saludable, que combina la cremosidad del aguacate con la frescura del tomate. ¡Que disfrutes! <br>
+        </h1>
+        <br>
+        <footer class="footer">
+                <div>
+                    <a href="https://www.facebook.com/">FACEBOOK</a> <!--Esto quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="https://www.instagram.com/">TWITTER</a>
+                    <a href="https://twitter.com/">INSTAGRAM</a>
+                    <a href="https://www.pinterest.es/">PINTEREST</a>
+                    <a href="https://www.google.com/intl/es/gmail/about/">EMAIL</a>
+                    <a href="https://hypel.ink/">RSS</a>
+                </div>
+        </footer> <!--La part de sota de la pàgina-->
+    </body>
+</html>

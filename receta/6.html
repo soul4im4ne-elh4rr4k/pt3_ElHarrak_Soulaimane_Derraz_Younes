@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recetas</title> <!--Titol de la pagina en la finestra-->
+        <meta charset='utf-8'>
+        <meta name="authors" content="SEH Soulaimane El Harrak & YD Younes Derraz">
+        <meta name="description" content="M04 UF1&UF2 HTML & CSS">
+        <meta name="dateCreated" content="02/02/2023">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Serveix perque s'adapti a la mida de la pantalla-->
+        <meta http-equiv="refresh" content="X"> <!--Serveix perque es vagi actualitzant els canvis-->
+        <link rel="shortcut icon" href="../imagenes/Logo-Delicias.png" type="image/x-icon"> <!--Serveix per posar una icona al costat del titol de la finestra-->
+        <link rel="stylesheet" href="../css/recetas.css"> <!--Serveix per enllaçar el document de l'estil de la pàgina...-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header"> <!--Logo, titol principal...-->
+            <div>
+                <img src="../imagenes/Logo-Delicias.png" alt="Logo Delicias">
+            </div>
+            <nav class="nav" style="position: sticky;"> <!--La barra de navegació per poder mouren's per la web-->
+                <div>
+                    <a href="../index.html">INICI</a> <!--Esta a quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="../sobre_mi/sobre_mi.html">SOBRE MÍ</a>
+                    <a href="../listado/listado.xml">RECETES</a>
+                    <a href="../contacto/contacto.html">CONTACTE</a>
+                    <a href="../otras_cosas/otras_cosas.html">ALTRES COSES</a>
+                    <a href="../login/login.html" style="color: #7ABA96">LOGIN</a>
+                </div>
+            </nav>
+        </header>
+        <img id = "fotoPrincipal" src="../imagenes/espaguetis_almejas_1.jpg" alt="image-description" width="585" height="391">        
+        <h1 id="Titulo">
+            ESPAGUETIS AMB CLOÏSSES
+        </h1>
+        <h1 id="Subtitulo">
+            2 de febrer de 2023 per @younes&souli
+        </h1>
+        <h1 id="Cuerpo">
+            Hi havia una vegada un jove cuiner anomenat Carlos, que havia après a cuinar des de petit amb la seva àvia, que li havia ensenyat els secrets de la cuina catalana. El plat favorit de Carlos eren els espaguetis amb cloïsses.
+            Un dia, Carlos va decidir participar en un concurs de cuina, en el qual havia de preparar el seu millor plat en només 30 minuts. Sabent que els espaguetis amb cloïsses eren un plat senzill i ràpid de preparar, va decidir escollir-lo.
+            Va començar a cuinar amb agilitat, mentre el públic observava amb atenció. Va cuinar els espaguetis al dente, va preparar una salsa de tomàquet i all i va afegir les cloïsses fresques. Quan va acabar, va portar el plat als jutges i va esperar ansiosament el seu veredicte.
+            Els jutges van provar el plat de Carlos i van quedar encantats amb el sabor i la frescor de les cloïsses. El jurat li va atorgar el primer premi del concurs.            
+            Des d'aquell dia, Carlos va convertir-se en un defensor de la cuina catalana i va seguir preparant els espaguetis amb cloïsses de la manera tradicional, compartint la seva recepta amb tothom que volia provar un plat autèntic i deliciós de la cuina catalana.
+        </h1>
+        <div>
+            <title>CONCURS DE CUINA</title>
+                <style>
+                .caja {
+                    margin-right: 25px;
+                    float: right;
+                    width: 600px;
+                    border: 1px solid black;
+                    padding: 10px;
+                    box-sizing: border-box;
+                }
+                .titulo {
+                    font-family: 'Gloock', serif;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                .barra {
+                    height: 5px;
+                    background-color: white;
+                    margin-bottom: 10px;
+                }
+                .imagen {
+                    max-width: 100%;
+                    height: auto;
+                    border: 2px;
+                    box-shadow: 0px 0px 10px grey;
+                }
+                .boton {
+                    display: block;
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: #7ABA96;
+                    color: black;
+                    margin: auto;
+                    text-decoration: dashed;
+                    border-radius: 100px;
+                    font-size: small;
+                }
+                </style>
+        </div>
+        <div>
+            <div class="caja">
+            <div id="tituloAnuncio" class="titulo">CONCURS DE CUINA</div>
+            <div class="barra"></div>
+            <img class="imagen" src="../imagenes/concursoCocina.jpg" alt="69">
+            <div class="barra"></div>
+            <div id="Cuerpo">
+                T'agrada cuinar i passar-ho bé? Aquí tenim el concurs de cuina més esperat
+                de la temporada. Tot tipus de plats i formes
+            </div>
+            <h1 id="Cuerpo" style="text-align: center;
+            animation: TituloAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;">¡ENTRA FENT CLICK!</h1>
+            <a class="boton" href="">¡CLICK AQUÍ!</a>
+        </div>
+        </div>
+        <img id="foto2" src="../imagenes/espaguetis_almejas_2.jpg" width="581" height="505">
+        <h1 id="Ingredients">
+            Ingredients: 
+        </h1>
+        <h1 id="Cuerpo">
+            - 400 g d'espaguetis  <br>
+            - 500 g de cloïsses <br>
+            - 1 ceba gran <br>
+            - 1 culleradeta de pebre vermell dolç <br>
+            - 400 g de tomàquet natural triturat <br>
+        </h1>
+        
+        <h1 id="Ingredients">
+        Preparació
+        </h1>
+        <h1 id="Cuerpo">
+            1. Poseu una olla amb aigua salada a bullir i afegiu els espaguetis. Remeneu-los de tant en tant i cuineu-los fins que estiguin al dente. <br>
+            2. Mentre cuineu els espaguetis, poseu una paella gran a foc mitjà i afegiu una mica d'oli d'oliva. <br>
+            3. Afegiu-hi la ceba i l'all picats i sofregiu-los fins que estiguin tendres. <br>
+            4. Afegiu el tomàquet triturat i el pebre vermell dolç a la paella. Deixeu que la salsa es cougui durant uns 5 minuts. <br>
+            5. Afegiu les cloïsses a la paella i tapeu-la. Deixeu que les cloïsses es vagin obrint, remenant de tant en tant. <br>
+            6. Si la salsa és massa espessa, afegiu una mica de l'aigua de cocció de la pasta per aprimar-la. <br>
+        </h1>
+        <br>
+        <footer class="footer">
+                <div>
+                    <a href="https://www.facebook.com/">FACEBOOK</a> <!--Esto quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="https://www.instagram.com/">TWITTER</a>
+                    <a href="https://twitter.com/">INSTAGRAM</a>
+                    <a href="https://www.pinterest.es/">PINTEREST</a>
+                    <a href="https://www.google.com/intl/es/gmail/about/">EMAIL</a>
+                    <a href="https://hypel.ink/">RSS</a>
+                </div>
+        </footer> <!--La part de sota de la pàgina-->
+    </body>
+</html>

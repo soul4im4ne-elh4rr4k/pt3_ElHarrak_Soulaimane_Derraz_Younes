@@ -1,0 +1,147 @@
+1<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recetas</title> <!--Titol de la pagina en la finestra-->
+        <meta charset='utf-8'>
+        <meta name="authors" content="SEH Soulaimane El Harrak & YD Younes Derraz">
+        <meta name="description" content="M04 UF1&UF2 HTML & CSS">
+        <meta name="dateCreated" content="02/02/2023">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Serveix perque s'adapti a la mida de la pantalla-->
+        <meta http-equiv="refresh" content="X"> <!--Serveix perque es vagi actualitzant els canvis-->
+        <link rel="shortcut icon" href="../imagenes/Logo-Delicias.png" type="image/x-icon"> <!--Serveix per posar una icona al costat del titol de la finestra-->
+        <link rel="stylesheet" href="../css/recetas.css"> <!--Serveix per enllaçar el document de l'estil de la pàgina...-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header"> <!--Logo, titol principal...-->
+            <div>
+                <img src="../imagenes/Logo-Delicias.png" alt="Logo Delicias">
+            </div>
+            <nav class="nav" style="position: sticky;"> <!--La barra de navegació per poder mouren's per la web-->
+                <div>
+                    <a href="../index.html">INICI</a> <!--Esta a quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="../sobre_mi/sobre_mi.html">SOBRE MÍ</a>
+                    <a href="../listado/listado.xml">RECETES</a>
+                    <a href="../contacto/contacto.html">CONTACTE</a>
+                    <a href="../otras_cosas/otras_cosas.html">ALTRES COSES</a>
+                    <a href="../login/login.html" style="color: #7ABA96">LOGIN</a>
+                </div>
+            </nav>
+        </header>
+        <img id = "fotoPrincipal" src="../imagenes/arrozNegro2.jpg" alt="image-description" width="585" height="391">        <h1 id="Titulo">
+            ARRÒS NEGRE
+        </h1>
+        <h1 id="Subtitulo">
+            2 de febrer de 2023 per @younes&souli
+        </h1>
+        <h1 id="Cuerpo">
+            Hace muchos años, en el sur de China, vivía una anciana que era famosa en su pueblo por su habilidad para preparar el arroz negro más delicioso. La receta de la anciana se había transmitido de generación en generación y se decía que era un tesoro familiar.
+            Un día, el gobernador de la provincia visitó el pueblo y decidió probar el famoso arroz negro de la anciana. El gobernador quedó tan impresionado con el sabor y la textura del arroz que decidió invitar a la anciana a su palacio para que le preparara el plato.
+            La anciana, honrada por la invitación, llegó al palacio y preparó el arroz negro en la cocina real. Sin embargo, mientras cocinaba, se dio cuenta de que había olvidado un ingrediente clave que daba al arroz su sabor único y su color oscuro.
+            La anciana se sintió terriblemente avergonzada por su error y temía que el gobernador se decepcionara con su plato. Pero en lugar de eso, el gobernador tomó una cucharada del arroz y dijo: "Este arroz es delicioso, pero algo falta en él". Luego, el gobernador sacó una pequeña bolsa de tinta de calamar y la vertió en el arroz.
+            La anciana se sorprendió por la idea del gobernador, pero lo siguió y mezcló la tinta de calamar con el arroz. Cuando el arroz negro estuvo listo, lo sirvieron al gobernador, quien lo encontró aún más delicioso que antes.
+            La anciana estaba asombrada por la creatividad del gobernador y agradecida por su ayuda para mejorar su plato. Desde entonces, la anciana comenzó a añadir tinta de calamar a su receta de arroz negro, lo que mejoró aún más el sabor del plato. Y así, la receta de la anciana se hizo aún más famosa en todo el país.
+        </h1>
+        <div>
+            <title>CONCURS DE CUINA</title>
+                <style>
+                .caja {
+                    margin-right: 25px;
+                    float: right;
+                    width: 600px;
+                    border: 1px solid black;
+                    padding: 10px;
+                    box-sizing: border-box;
+                }
+                .titulo {
+                    font-family: 'Gloock', serif;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                .barra {
+                    height: 5px;
+                    background-color: white;
+                    margin-bottom: 10px;
+                }
+                .imagen {
+                    max-width: 100%;
+                    height: auto;
+                    border: 2px;
+                    box-shadow: 0px 0px 10px grey;
+                }
+                .boton {
+                    display: block;
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: #7ABA96;
+                    color: black;
+                    margin: auto;
+                    text-decoration: dashed;
+                    border-radius: 100px;
+                    font-size: small;
+                }
+                </style>
+        </div>
+        <div>
+            <div class="caja">
+            <div id="tituloAnuncio" class="titulo">CONCURS DE CUINA</div>
+            <div class="barra"></div>
+            <img class="imagen" src="../imagenes/concursoCocina.jpg" alt="69">
+            <div class="barra"></div>
+            <div id="Cuerpo">
+                T'agrada cuinar i passar-ho bé? Aquí tenim el concurs de cuina més esperat
+                de la temporada. Tot tipus de plats i formes
+            </div>
+            <h1 id="Cuerpo" style="text-align: center;
+            animation: TituloAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;">¡ENTRA FENT CLICK!</h1>
+            <a class="boton" href="">¡CLICK AQUÍ!</a>
+        </div>
+        </div>
+        <img id="foto2" src="../imagenes/arrozNegro.jpg" width="581" height="505">
+        <h1 id="Ingredients">
+            Ingredients: 
+        </h1>
+        <h1 id="Cuerpo">
+            - Arroz de grano largo o corto <br>
+            - Caldo de pescado o de marisco <br>
+            - Tinta de calamar o sepia <br>
+            - Cebolla <br>
+            - Pimiento rojo o verde <br>
+        </h1>
+        
+        <h1 id="Ingredients">
+        Preparació
+        </h1>
+        <h1 id="Cuerpo">
+            1. Sofregiu la ceba i els pebrots tallats en quadradets fins que estiguin tendres. Afegiu-hi l'all picat i deixeu-lo coure uns segons més. <br>
+            2. Afegiu el tomàquet tallat en quadradets petits i deixeu-ho coure uns minuts fins que es desfaci i s'aboni amb la ceba. <br>
+            3. Afegiu el caldo de peix o de marisc i la tinta de calamar o sepia. Porteu-ho a ebullició i deixeu coure durant uns minuts. <br>
+            4. Afegiu l'arròs i deixeu-lo coure durant uns 15-20 minuts, remenant de tant en tant. Si és necessari, afegiu més caldo mentre es cou l'arròs.<br>
+            5. Quan l'arròs estigui cuit, retireu-lo del foc i deixeu-lo reposar durant uns minuts abans de servir-lo. <br>
+            6. Podeu decorar el plat amb ceba tendra picada, julivert i uns trossets de llima.<br>
+        </h1>
+        <br>
+        <footer class="footer">
+                <div>
+                    <a href="https://www.facebook.com/">FACEBOOK</a> <!--Esto quiere decir que si clicamos nos redirije a la pagina que le decimos-->
+                    <a href="https://www.instagram.com/">INSTAGRAM</a>
+                    <a href="https://twitter.com/">TWITTER</a>
+                    <a href="https://www.pinterest.es/">PINTEREST</a>
+                    <a href="https://www.google.com/intl/es/gmail/about/">EMAIL</a>
+                    <a href="https://hypel.ink/">RSS</a>
+                </div>
+        </footer> <!--La part de sota de la pàgina-->
+    </body>
+</html>
+
