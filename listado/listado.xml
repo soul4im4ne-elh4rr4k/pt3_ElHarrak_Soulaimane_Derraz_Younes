@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="listado.xsl" ?> <!-- Linkem l'arxiu XSL amb el XML-->
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquema.xsd">
+    <receta>
+        <position>1</position>
+        <nombre>Arròs negre</nombre>
+        <subtitulo>Recepta d'arròs negre</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Ivan</autor>
+    </receta>
+    <receta>
+        <position>2</position>
+        <nombre>Base de pizza</nombre>
+        <subtitulo>Recepta de base de pizza</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Selena</autor>
+    </receta>
+    <receta>
+        <position>3</position>
+        <nombre>Canelons casolans</nombre>
+        <subtitulo>Recepta de canelons casolans</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Ivan</autor>
+    </receta>
+    <receta>
+        <position>4</position>
+        <nombre>Canelons amb bolets i gambes</nombre>
+        <subtitulo>Recepta de canelons amb bolets i gambes</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Rita</autor>
+    </receta>
+    <receta>
+        <position>5</position>
+        <nombre>Espaguetis a la carbonara</nombre>
+        <subtitulo>Recepta d'espaguetis a la carbonara</subtitulo>
+        <dificultad>Baixa</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Selena</autor>
+    </receta>
+    <receta>
+        <position>6</position>
+        <nombre>Espaguetis a la salsa carbonara</nombre>
+        <subtitulo>Recepta d'espaguetis a la salsa carbonara</subtitulo>
+        <dificultad>Baixa</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>L'avi</autor>
+    </receta>
+    <receta>
+        <position>7</position>
+        <nombre>Espaguetis amb cloïsses</nombre>
+        <subtitulo>Recepta d'espaguetis amb cloïsses</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Ivan</autor>
+    </receta>
+    <receta>
+        <position>8</position>
+        <nombre>Fideuà</nombre>
+        <subtitulo>Recepta de fideuà</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Rita</autor>
+    </receta>
+    <receta>
+        <position>9</position>
+        <nombre>Gnocchis amb alvocat pesto i tomàquet</nombre>
+        <subtitulo>Recepta de gnocchis amb alvocat pesto i tomàquet</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>ProHass</autor>
+    </receta>
+    <receta>
+        <position>10</position>
+        <nombre>Llacets amb pollastre bròquil i pebrot vermell rostit</nombre>
+        <subtitulo>Recepta de llacets amb pollastre bròquil i pebrot vermell rostit</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>L'avi</autor>
+    </receta>
+    <receta>
+        <position>11</position>
+        <nombre>Lasanya bolonyesa vegetariana</nombre>
+        <subtitulo>Recepta de lasanya bolonyesa vegetariana</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Kristobal</autor>
+    </receta>
+    <receta>
+        <position>12</position>
+        <nombre>Lasanya de pollastre</nombre>
+        <subtitulo>Recepta de lasanya de pollastre</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>L'avi</autor>
+    </receta>
+    <receta>
+        <position>13</position>
+        <nombre>Lasanya vegetariana</nombre>
+        <subtitulo>Recepta de lasanya vegetariana</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Selena</autor>
+    </receta>
+    <receta>
+        <position>14</position>
+        <nombre>Llaços de colors en amanida</nombre>
+        <subtitulo>Recepta de llaços de colors en amanida</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Francesca</autor>
+    </receta>
+    <receta>
+        <position>15</position>
+        <nombre>Macarrons</nombre>
+        <subtitulo>Recepta de macarrons</subtitulo>
+        <dificultad>Mitjana</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Ivan</autor>
+    </receta>
+    <receta>
+        <position>16</position>
+        <nombre>Pasta italiana amb ali i all</nombre>
+        <subtitulo>Recepta de pasta italiana amb ali i all</subtitulo>
+        <dificultad>Alta</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Soulaimane</autor>
+    </receta>
+    <receta>
+        <position>17</position>
+        <nombre>Halibut</nombre>
+        <subtitulo>Nam dui.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>Sí</anticáncer>
+        <autor>Sidney</autor>
+    </receta>
+    <receta>
+        <position>18</position>
+        <nombre>Cereal</nombre>
+        <subtitulo>Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Hi</autor>
+    </receta>
+    <receta>
+        <position>19</position>
+        <nombre>Hazelnut</nombre>
+        <subtitulo>Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>Sí</anticáncer>
+        <autor>Klemens</autor>
+    </receta>
+    <receta>
+        <position>20</position>
+        <nombre>Ice</nombre>
+        <subtitulo>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>Sí</anticáncer>
+        <autor>Cate</autor>
+    </receta>
+    <receta>
+        <position>21</position>
+        <nombre>Pear</nombre>
+        <subtitulo>Phasellus in felis.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>Sí</anticáncer>
+        <autor>Wilone</autor>
+    </receta>
+    <receta>
+        <position>22</position>
+        <nombre>Wine</nombre>
+        <subtitulo>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>Sí</anticáncer>
+        <autor>Kane</autor>
+    </receta>
+    <receta>
+        <position>23</position>
+        <nombre>Cinnamon Buns</nombre>
+        <subtitulo>Sed sagittis.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Vasili</autor>
+    </receta>
+    <receta>
+        <position>24</position>
+        <nombre>Cake Sheet</nombre>
+        <subtitulo>Aliquam quis turpis eget elit sodales scelerisque.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Nariko</autor>
+    </receta>
+    <receta>
+        <position>25</position>
+        <nombre>Chicken Curried</nombre>
+        <subtitulo>Suspendisse potenti.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>Sí</anticáncer>
+        <autor>Carmencita</autor>
+    </receta>
+    <receta>
+        <position>26</position>
+        <nombre>Bread</nombre>
+        <subtitulo>Etiam justo.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Glennie</autor>
+    </receta>
+    <receta>
+        <position>27</position>
+        <nombre>Raisin Muffin</nombre>
+        <subtitulo>Cras non velit nec nisi vulputate nonummy.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Babbette</autor>
+    </receta>
+    <receta>
+        <position>28</position>
+        <nombre>Cake White</nombre>
+        <subtitulo>Morbi a ipsum.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Rosaleen</autor>
+    </receta>
+    <receta>
+        <position>29</position>
+        <nombre>Chocolate</nombre>
+        <subtitulo>Aenean auctor gravida sem.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Tradicional</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>No</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Jess</autor>
+    </receta>
+    <receta>
+        <position>30</position>
+        <nombre>Squid</nombre>
+        <subtitulo>Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>No</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Jaclyn</autor>
+    </receta>
+    <receta>
+        <position>31</position>
+        <nombre>Frozen</nombre>
+        <subtitulo>Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.</subtitulo>
+        <dificultad>Baixa, Mitjana, Alta</dificultad>
+        <cocina>Moderna</cocina>
+        <vegetariana>Sí</vegetariana>
+        <celíacos>Sí</celíacos>
+        <anticáncer>No</anticáncer>
+        <autor>Caitlin</autor>
+    </receta>
+</recetas>
